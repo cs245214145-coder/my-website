@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An advanced HTML5 document demonstrating semantic structure, accessibility, and microdata.">
+    <meta name="author" content="Your Name">
+    <title>Advanced HTML5 Research Page</title>
+
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: #f4f4f4;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+        nav a {
+            color: #fff;
+            margin-right: 1rem;
+            text-decoration: none;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.5rem;
+            padding: 1.5rem;
+            background: #fff;
+        }
+        article {
+            background: #fafafa;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+        aside {
+            background: #e8e8e8;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+        figure {
+            margin: 0;
+        }
+        figcaption {
+            font-size: 0.9rem;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+<header role="banner">
+    <h1 itemprop="headline">Advanced Web Technologies Research</h1>
+    <nav role="navigation" aria-label="Main Navigation">
+        <a href="#introduction">Introduction</a>
+        <a href="#analysis">Analysis</a>
+        <a href="#references">References</a>
+    </nav>
+</header>
+
+<main role="main">
+    <article id="introduction" itemprop="mainEntity" itemscope itemtype="https://schema.org/Article">
+        <h2 itemprop="headline">1. Introduction to Semantic Web Architecture</h2>
+        <p itemprop="articleBody">
+            This document demonstrates the structure and design of a postgraduate-level HTML5 page.
+            It employs semantic markup, ARIA accessibility roles, metadata, and schema.org microdata.
+        </p>
+
+        <figure>
+            <img src="https://via.placeholder.com/800x350" alt="Diagram of semantic HTML layout" width="100%">
+            <figcaption>A conceptual view of semantic document structure.</figcaption>
+        </figure>
+    </article>
+
+    <aside>
+        <h3>Quick Facts</h3>
+        <ul>
+            <li>HTML5 introduced over 30 new semantic tags.</li>
+            <li>ARIA roles improve accessibility for screen readers.</li>
+            <li>Microdata helps search engines interpret page meaning.</li>
+        </ul>
+    </aside>
+</main>
+
+<section id="analysis" style="padding: 1.5rem;">
+    <h2>2. Deeper Analysis</h2>
+    <p>
+        The integration of microdata and semantic elements improves SEO and accessibility
+        while enabling structured data extraction for machine processing.
+    </p>
+</section>
+
+<footer role="contentinfo">
+    <p>&copy; 2025 Advanced Research Group — All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
